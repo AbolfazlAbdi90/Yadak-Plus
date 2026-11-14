@@ -1,0 +1,30 @@
+@import './base.css';
+
+body,
+html {
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@import 'tailwindcss';
+@import './base.css';
+
+@theme {
+  --font-iransans: 'IRANSans', sans-serif;
+  --font-pinar: 'Pinar', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
